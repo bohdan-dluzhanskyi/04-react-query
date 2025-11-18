@@ -39,7 +39,7 @@ const MovieModal: React.FC<MovieModalProps> = ({ movie, onClose }) => {
           &times;
         </button>
         <img
-          src={makeImagePath(movie.backdrop_path, 'original')}
+          src={makeImagePath(movie.backdro_ppath, 'original')}
           alt={movie.title}
           className={styles.image}
         />
